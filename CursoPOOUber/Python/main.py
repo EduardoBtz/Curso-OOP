@@ -1,14 +1,8 @@
-from car import Car
+from CursoPOOUber.Python.car import Car
+from CursoPOOUber.Python.account import Account
 
 if __name__ == "__main__":
     print("Hello world!")
-    car = Car()
-    car.license = "AMS1233"
-    car.driver = "Jesus Orjle"
+    car = Car("AMS234", Account("Andres Herrera", "ANDA876"))
     print(vars(car))
-
-    car2 = Car()
-    car2.license = "JJK123"
-    car2.driver = "Carlos Bella"
-    print(vars(car2))
-   
+    print(vars(car.driver))

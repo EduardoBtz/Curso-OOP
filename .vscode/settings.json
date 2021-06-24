@@ -1,8 +1,8 @@
 {
     "python.autoComplete.extraPaths": [
-        "./Python",
+        "/CursoPOOUber/Python",
     ],
     "python.analysis.extraPaths": [
-        "./Python"
+        "/CursoPOOUber/Python"
     ],
 }
